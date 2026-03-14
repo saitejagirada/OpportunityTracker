@@ -100,4 +100,3 @@ The project is configured for deployment on platforms like rendered (refer to `r
 ---
 *Developed by StochasticGradients*
 
-# OpportunityTracker

@@ -1,0 +1,44 @@
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit",
+    "bot": "tsx --env-file=.env bot.ts",
+    "reminder": "tsx --env-file=.env reminder.ts",
+    "whatsapp": "tsx --env-file=.env whatsapp-bot.ts",
+    "start": "concurrently -n DEV,BOT,REMIND,WHATSAPP -c blue,green,yellow,magenta \"npm run dev\" \"npm run bot\" \"npm run reminder\" \"npm run whatsapp\""
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "@supabase/supabase-js": "^2.99.1",
+    "clsx": "^2.1.1",
+    "concurrently": "^9.2.1",
+    "groq-sdk": "^1.1.1",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.36.0",
+    "node-telegram-bot-api": "^0.67.0",
+    "nodemailer": "^8.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.5.0",
+    "twilio": "^5.13.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/node": "^22.14.0",
+    "@types/node-telegram-bot-api": "^0.64.14",
+    "@types/nodemailer": "^7.0.11",
+    "@vitejs/plugin-react": "^5.0.4",
+    "autoprefixer": "^10.4.21",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Opportunity Tracker",
+  "description": "A minimalist platform for students to discover internships, jobs, and hackathons with AI-powered extraction and smart alerts.",
+  "requestFramePermissions": []
+}
