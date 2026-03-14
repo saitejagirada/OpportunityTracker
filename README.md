@@ -1,7 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # OppTracker: AI-Powered Opportunity Capture & Management
 
 OppTracker is an enterprise-grade ecosystem designed to solve the challenge of fragmented student opportunities. By leveraging Large Language Models (LLMs) and cross-platform integration, OppTracker transforms cluttered job listings into structured, actionable data.
