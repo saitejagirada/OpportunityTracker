@@ -1,4 +1,7 @@
 # OppTracker: AI-Powered Opportunity Capture & Management
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1g-0oToo9JnN24HNrXO6DOMpbUlv8yDy2" width="65%">
+</p>
 
 OppTracker is an enterprise-grade ecosystem designed to solve the challenge of fragmented student opportunities. By leveraging Large Language Models (LLMs) and cross-platform integration, OppTracker transforms cluttered job listings into structured, actionable data.
 
@@ -29,6 +32,10 @@ The platform is built on a robust, scalable stack designed for high availability
 2.  **Conversational Querying**: Users can ask natural language questions (e.g., "Find software internships in Bangalore") to retrieve filtered results.
 3.  **Automated Deadline Tracking**: A background service monitors application deadlines and triggers alerts 12 hours prior to closing.
 4.  **Omnichannel Support**: Unified experience across Web, Telegram, and WhatsApp.
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1I4OUZJ0YQ8Y0Zf2BDc4R3I_UhudbXl6J" width="30%">
+  <img src="https://drive.google.com/uc?export=view&id=1NCxZh9DZ5Pca-7-fEScvrerO77ykvoX6" width="30%">
+</p>
 
 ## Technical Setup
 
